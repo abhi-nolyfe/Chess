@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = ""
+authors = ["abhi <abhi.nolyfe@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+python-chess = "^1.999"
+channels-redis = "^4.1.0"
+channels = {extras = ["daphne"], version = "^4.0.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
